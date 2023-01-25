@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/simple_nn.h
+
+/root/cml1/src/simple_nn.cpp
+simple_nn.h
+/root/cml1/src/simple_nn.h
+cmath
+-
+
