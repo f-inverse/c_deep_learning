@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/cml3/include/multiple_nn_out.h
+
+/root/cml3/src/multiple_nn_out.cpp
+/root/cml3/include/multiple_nn_out.h
+-
+cmath
+-
+iostream
+-
+stdio.h
+-
+
