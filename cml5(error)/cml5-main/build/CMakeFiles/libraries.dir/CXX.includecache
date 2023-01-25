@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/cml5/include/hidden_nn.h
+
+/root/cml5/src/hidden_nn.cpp
+/root/cml5/include/hidden_nn.h
+-
+cmath
+-
+iostream
+-
+stdio.h
+-
+
