@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/cml6/include/brute_force.h
+
+/root/cml6/src/brute_force.cpp
+/root/cml6/include/brute_force.h
+-
+cmath
+-
+iostream
+-
+stdio.h
+-
+
+/root/cml6/src/main.cpp
+stdlib.h
+-
+iostream
+-
+/root/cml6/include/brute_force.h
+-
+/root/cml6/src/brute_force.cpp
+-
+

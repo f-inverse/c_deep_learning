@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/root/cml6/build",
+  "command": "/usr/bin/g++  -I/root/cml6/include -g -std=gnu++17 -o CMakeFiles/main.dir/src/main.cpp.o -c /root/cml6/src/main.cpp",
+  "file": "/root/cml6/src/main.cpp"
+},
+{
+  "directory": "/root/cml6/build",
+  "command": "/usr/bin/g++  -I/root/cml6/include -g -std=gnu++17 -o CMakeFiles/libraries.dir/src/brute_force.cpp.o -c /root/cml6/src/brute_force.cpp",
+  "file": "/root/cml6/src/brute_force.cpp"
+}
+]
