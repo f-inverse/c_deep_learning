@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/cml7/include/nn.h
+stdio.h
+-
+
+/root/cml7/src/main.cpp
+stdlib.h
+-
+iostream
+-
+stdio.h
+-
+../include/nn.h
+/root/cml7/include/nn.h
+./nn.cpp
+/root/cml7/src/nn.cpp
+
+/root/cml7/src/nn.cpp
+../include/nn.h
+/root/cml7/include/nn.h
+cmath
+-
+iostream
+-
+stdio.h
+-
+
