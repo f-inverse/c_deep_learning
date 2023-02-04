@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/nn.hpp
+stdio.h
+-
+cmath
+-
+
+../include/utils.hpp
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+cstring
+-
+
+/workspaces/cml9_/src/nn.cpp
+nn.hpp
+/workspaces/cml9_/src/nn.hpp
+
+/workspaces/cml9_/src/utils.cpp
+utils.hpp
+/workspaces/cml9_/src/utils.hpp
+cmath
+-
+string.h
+-
+cstring
+-
+
